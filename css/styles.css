@@ -1,14 +1,5 @@
-/* En este archivo escriban su CSS */
-
-/* Fonts */
 /* Importar aquí la font */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-
-
-
-/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
-*  cuyos valores asigna por defecto el navegador.
-*/
 
 /* Reset */
 * {
@@ -22,12 +13,6 @@
 /* Para quitar los puntos a los items de listas */
 ul {
     list-style: none;
-
-
-}
-
-li {
-    display: inline-block;
 
 }
 
@@ -83,16 +68,17 @@ nav ul li {
     font-size: 28px;
 }
 
-footer {
-    height: 90px;
-    width: 100%;
-    background-color: #af599e;
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+
 }
 
 h2 {
     color: black;
     text-align: center;
-    padding: 20px;
     font-size: 28px;
 
 }
@@ -104,7 +90,6 @@ section {
 .foto {
     padding-top: 120px;
 
-
 }
 
 .perfil {
@@ -115,25 +100,12 @@ section {
     justify-content: center;
 }
 
-h1 {
-    font-size: 36px;
-    font-weight: 700;
-    text-align: center;
-
-}
-
 p {
     font-size: 18px;
     padding: 20px 20px 20px 20px;
     line-height: 1.2;
     text-align: center;
 
-}
-
-footer p {
-    color: #fbfbfb;
-    text-align: center;
-    padding: 30px;
 }
 
 h3 {
@@ -146,8 +118,6 @@ h3 {
     padding: 10px;
     color: #fbfbfb;
 
-
-
 }
 
 .contacto {
@@ -156,15 +126,28 @@ h3 {
     border-radius: 10px;
     padding: 20px;
     margin: 0px 15px 0px 15px;
+
 }
-.botones{
-    display: inline-block;
+
+.botones {
     text-align: center;
 }
-img{
+
+img {
     margin: 30px;
     width: 20%;
     padding: 15px;
 }
 
-    
+footer {
+    height: 90px;
+    width: 100%;
+    background-color: #af599e;
+}
+
+footer p {
+    color: #fbfbfb;
+    text-align: center;
+    padding: 30px;
+
+}
